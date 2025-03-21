@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>12_HTML연습문제3</title>
+</head>
+<body>
+  <h1>회원 가입</h1>
+  <br>
+  <form>
+    <fieldset>
+      <legend>필수 입력 정보</legend>
+      <table>
+        <tr>
+          <th>ID</th>
+          <td>
+            <input type="" size="15">
+            <button>중복 확인</button>
+          </td>
+        </tr>
+        <tr>
+          <th>비밀번호</th>
+          <td colspan="2">
+            <input type="" size="25" placeholder="영문,숫자,특수문자 포함 8자 이상">
+          </td>
+        </tr>
+        <tr>
+          <th>비밀번호 확인</th>
+          <td colspan="2">
+            <input type="" size="25">
+          </td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td>
+            <input type="" size="15">
+            <form>
+              <select>
+                <option>직접입력</option>
+                <option>naver.com</option>
+                <option>daum.net</option>
+                <option>nate.com</option>
+              </select>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+  </form>
+
+  <form>
+    <fieldset>
+      <legend>추가 정보</legend>
+      프로필 사진 <button>파일 선택</button> <small>선택된 파일 없음</small> <br>
+      <br>
+      성별 : 
+      <label><input type="radio" name="gender"> 남자</label>
+      <label><input type="radio" name="gender"> 여자</label> <br>
+      <br>
+      생년월일 : <input type="date"> <br>
+      <br>
+      취미 <br>
+      <label>
+        <input type="checkbox" name="hobby"> 야구
+        <input type="checkbox" name="hobby"> 농구
+        <input type="checkbox" name="hobby"> 축구 <br>
+        <input type="checkbox" name="hobby"> 공부
+        <input type="checkbox" name="hobby"> 음악감상 <br>
+        <input type="checkbox" name="hobby"> 기타
+        <input type="" size="15"> <br>
+        <br>
+        자기소개<br>
+        <textarea rows="10" cols="70" style="resize: none;"></textarea>
+      </label>
+    </fieldset>
+  </form>
+  <br>
+  <button>회원가입</button> <button>다시입력</button> <button>이전으로</button>
+</body>
+</html>
