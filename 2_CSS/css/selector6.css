@@ -1,0 +1,36 @@
+/* 코드는 위에서 아래로 흘러 아래로 갈수록
+   최신화 되지만 우선수위가 적용 된다면? */
+
+/* 1순위 : 속성값 !important */
+
+/* 2순위 : html에 직접 작성 */
+
+/* 3순위 : 아이디 선택자 */
+#test1 {
+  height: 100px;
+  background-color: black;
+  color: white;
+}   
+
+
+/* 4순위 : 클래스 선택자 */
+.cls1 {
+  background-color: green;
+}
+
+.cls1 {
+  background-color: yellow;
+  /* 동일한 우선순위에선 
+     아래쪽에 작성된 설정값이 우선적용 됨 */
+}
+
+
+/* 5순위 : 태그 선택자 */
+div {
+  width: 200px;
+  height: 200px;     /* 1순위 : 속성값 !important */
+  background-color: red !important; 
+  /* 설정값이 아래에 있지만 우선순위에 밀려
+     빨간색이 적용되지 않음 */
+}
+
