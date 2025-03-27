@@ -4,13 +4,14 @@ header {
   justify-content: center;
   padding: 10px 20px;
   position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 2;
 }
-
-
 
 nav > ul {
   margin: 0;
-  padding: 30px;
+  padding: 50px;
   list-style: none;
   display: flex;
 }
@@ -74,10 +75,207 @@ nav a {
 }
 
 #dod {
+  padding-left: 20px;
   cursor: pointer;
-  font-size: 24px;
   color: #455ba8;
   background-color: transparent;
   border-color: transparent;
   /* trasparent 배경색 투명 */
 }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#banner {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.pre {
+  width: 90px;
+  height: 90px;
+  top: 50%;
+  position: absolute;
+  z-index: 1;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: white;
+  opacity: 0.5;
+}
+
+/* .next {
+  width: 90px;
+  height: 90px;
+  top: 50%;
+  position: absolute;
+  z-index: 1;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  opacity: 0.5;
+} */
+
+#live > h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 900px;
+  font-weight: bold;
+  flex-basis: 30%;
+}
+
+.menu-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 10%;
+  gap: 30px;
+}
+
+.menu > img {
+  max-width: max-content;
+}
+
+.menu-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 10%;
+  gap:30px;
+  margin-top: 30px;
+}
+
+.menu{
+  box-shadow: 5px 6px 6px #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+.content-1 pre {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+.content-1 a {
+  text-decoration: none;
+}
+  /*---------*/
+
+.plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+/* ------- */ 
+footer {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* ------- */ 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+/* ------- */ 
+.l {
+  display: flex;
+ 
+  align-items: flex-start;
+}
+
+.l ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.l a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+footer .yellow > a {
+  color: yellow;
+}
+
+footer  ul {
+  list-style: none;
+}
+/* ------- */ 
+footer .m {
+  display: flex;
+  color: grey;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 50px;
+  padding-top: 10px;
+}
+/* ------- */ 
+footer .r {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 230px;
+}
+
+.icon a {
+  padding: 10px;
+  color: white;
+  font-size: 24px;
+}
+/* ------- */ 
+.icon img {
+  width: 50px;
+  flex-direction: row;
+}
+
+/* ------- */ 
+.lsms {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
+.lsms img {
+  margin-bottom: 15px;
+  width: 80px;
+}
+
+.lsms p {
+  color: white;
+  font-size: 10px;
+  padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
