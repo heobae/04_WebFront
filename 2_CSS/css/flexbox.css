@@ -76,7 +76,7 @@ div{
   /* 메인축 방향으로 가운데 정렬 */
   /* justify-content: center; */
 
-  /* 양끝쪽을 분인 상태에서 item 들의 간격을 일정하게 정렬 */
+  /* 양끝쪽을 붙인 상태에서 item 들의 간격을 일정하게 정렬 */
   /* justify-content: space-between; */
   
   /* 양끝은 조금, item 중간은 일정 간격으로 정렬 */
