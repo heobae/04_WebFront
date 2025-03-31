@@ -103,7 +103,7 @@ test2.addEventListener("click", function() {
 });
 
 // 연습문제
-// 나
+// 내가 한거
 /*const input3 = document.querySelector("#input3");
 
 const box3 = document.querySelector("#box3");
