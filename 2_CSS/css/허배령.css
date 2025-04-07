@@ -1,0 +1,13 @@
+thead, tfoot {
+  background-color: rgba(253, 173, 102, 0.899);
+  color: white;
+}
+
+.notice2 {
+  background-color: beige;
+}
+
+#submit {
+  display: flex;
+  padding-left: 150px;
+}
