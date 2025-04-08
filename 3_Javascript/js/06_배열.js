@@ -1,5 +1,5 @@
-// 배열 선언 및 기초 사용법
-function check1() {
+  // 배열 선언 및 기초 사용법
+  function check1() {
 
   // 배열 선언 방법 확인
   const arr1 = new Array();
