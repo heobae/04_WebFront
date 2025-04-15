@@ -11,7 +11,6 @@
     
 //     console.log(e.key);
   
-
 //   let idx; // 인덱스 값을 지정할 변수
 
 //   // 입력된 키를 소문자로 바꿔서 일치하는 CASE 실행
@@ -30,7 +29,6 @@
 // document.addEventListener("keyup", function(e) {
     
 //   console.log(e.key);
-
 
 // let idx; // 인덱스 값을 지정할 변수
 
@@ -76,6 +74,3 @@ function changeKeyColor(e, color) {
 // 키가 눌렸을 때 실행
 document.addEventListener("keydown", (e) => changeKeyColor(e, "skyblue"));
 document.addEventListener("keyup", (e) => changeKeyColor(e, "white"));
-
-
-

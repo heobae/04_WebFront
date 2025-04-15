@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 600px;
+  margin: auto;
+}
+
+
+
+#box {
+  border: 3px solid black;
+  min-width: auto;
+  min-height: auto;
+
+  display: flex;
+  padding: 0;
+  margin: 20px;
+  justify-content: center;
+}
+
+

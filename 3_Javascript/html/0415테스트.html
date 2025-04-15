@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/0415테스트.css">
+</head>
+
+<body>
+
+  <main>
+    <section>
+      <div>
+        <table>
+          <th>너비 : </th>
+          <td><input type="text" id="width"> px</td>
+          <th>높이 : </th>
+          <td><input type="text" id="height"> px</td>
+        </table>
+      </div>
+
+      <div>
+        <table>
+          <th>글자 크기 : </th>
+          <td><input type="text" id="textsize"> px</td>
+          <th>굵기 : </th>
+          <td><label>보통</label><input type="radio" name="weight" value="normal"></td>
+          <td><label>굵게</label><input type="radio" name="weight" value="bold"></td>
+        </table>
+      </div>
+
+      <div>
+        <table>
+          <th>글자색 : </th>
+          <td><input type="text" id="textcolor" class="textcolor"></td>
+          <th>배경색 : </th>
+          <td><input type="text" id="backgroundcolor" class="backgroundcolor"></td>
+        </table>
+      </div>
+
+      <div>
+        <table>
+          <th>가로정렬 : </th>
+          <td>
+            <label>왼쪽</label><input type="radio" name="radiorows" value="flex-start">
+            <label>가운데</label><input type="radio" name="radiorows" value="center">
+            <label>오른쪽</label><input type="radio" name="radiorows" value="flex-end">
+          </td>
+        </table>
+      </div>
+
+      <div>
+        <table>
+          <th>세로정렬 : </th>
+          <td>
+            <label>위</label><input type="radio" name="radiocols" value="flex-start">
+            <label>가운데</label><input type="radio" name="radiocols" value="center">
+            <label>아래</label><input type="radio" name="radiocols" value="flex-end">
+          </td>
+        </table>
+      </div>
+
+      <div>
+        <table>
+          <th>출력 문자열 : </th>
+          <td colspan="3"><input type="text" id="str" class="str"></td>
+        </table>
+      </div>
+      <br>
+      <button id="apply">적용하기</button>
+    </section>
+    <br>
+    <div id="box"></div>
+  </main>
+
+ 
+
+
+  <script src="../js/0415테스트.js"></script>
+</body>
+
+</html>

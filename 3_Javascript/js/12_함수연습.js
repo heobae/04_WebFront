@@ -41,7 +41,7 @@ function fn6(str, num) {
   }
   console.log("6번: ", result);
 }
-fn5("hello", 5);
+fn6("hello", 5);
 
 // 7. 숫자를 매개변수로 받아 그 숫자가 짝수인지 아닌지를 true 또는 false로 반환하는 함수를 선언 및 정의하고 호출하시오
 function fn7(number) {

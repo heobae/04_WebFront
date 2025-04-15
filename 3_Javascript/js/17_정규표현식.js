@@ -21,8 +21,6 @@ document.querySelector("#btn1").addEventListener("click", () => {
   
   console.log( regExp2.test(str3) );
   console.log( regExp2.exec(str3) );
-  
-
 });
 
 // 메타문자 확인하기
@@ -45,8 +43,6 @@ document.querySelector("#btn2").addEventListener("click", () => {
   const regExp3 = /group$/; // 문자열의 끝이 group인지 확인
   div1.innerHTML += "/group$/, group100 : " + regExp3.test("group100") + "<hr>";
   div1.innerHTML += "/group$/, 100group : " + regExp3.test("100group") + "<hr>";
-
-
 });
 
 
